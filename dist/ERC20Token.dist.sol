@@ -733,7 +733,7 @@ contract BaseERC20Token is ERC20Detailed, ERC20Capped, ERC20Burnable, OperatorRo
  */
 contract ERC20Token is BaseERC20Token {
 
-    string public builtOn = "https://vittominacori.github.io/erc20-generator";
+    string public builtOn = "A Random Tool";
 
     constructor(
         string memory name,
